@@ -1,0 +1,47 @@
+{
+  "name": "esg-data-dashboard",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "predev": "[ -d node_modules/.bin ] || bun install || npm install",
+    "dev": "tsx server.ts",
+    "start": "NODE_ENV=production tsx server.ts",
+    "prebuild": "[ -d node_modules/.bin ] || bun install || npm install",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prelint": "[ -d node_modules/.bin ] || bun install || npm install",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/genai": "^3.6.1",
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/multer": "^2.3.0",
+    "@types/pg": "^8.23.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "drizzle-kit": "^0.31.11",
+    "drizzle-orm": "^0.45.4",
+    "express": "^5.3.0",
+    "firebase": "^13.4.0",
+    "firebase-admin": "^14.5.1",
+    "lucide-react": "^1.77.0",
+    "multer": "^2.5.0",
+    "pg": "^8.23.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "recharts": "^3.11.0",
+    "tailwindcss": "^4.3.5",
+    "tsx": "^4.23.15",
+    "vite": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "^7.0.2"
+  }
+}

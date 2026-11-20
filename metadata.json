@@ -1,0 +1,8 @@
+{
+  "name": "ClubPulse",
+  "description": "Student Club Participation & Engagement Analytics Platform with Google Cloud SQL, Firebase Auth, Google Workspace (Sheets, Drive, Calendar, Forms), and ClubPulse AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
